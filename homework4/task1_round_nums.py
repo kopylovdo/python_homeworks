@@ -1,4 +1,5 @@
 """Программа, которая вычисляет число c заданной точностью d"""
+
 from decimal import Decimal
 
 number = Decimal(input('Введите число: '))

@@ -1,4 +1,5 @@
 """Прогамма, вычисляющая сумму многочленов, каждый из которых хранится в файле"""
+
 from collections import Counter
 
 def parse_polinome(polinom):

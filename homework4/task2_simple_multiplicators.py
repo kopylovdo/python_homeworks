@@ -1,8 +1,10 @@
 """Программа, которая составит список простых множителей числа N"""
+
 N = int(input('Введите число N: '))
 
 simple_multiplicators = []
 number = N
+
 index = 2
 while index ** 2 <= number:
     while number % index == 0:
