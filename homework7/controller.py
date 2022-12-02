@@ -6,6 +6,8 @@ import utils
 
 controller_menu = ('Выход','Просмотр справочника','Внесение новых данных')
 
+#controller_menu = ('Выход','Просмотр справочника','Внесение новых данных','Удлаение строки справочника')
+
 def run():
     print('Телефонный справочник')
     user_select = -1
@@ -17,3 +19,5 @@ def run():
                 viewer.view_db()
             case 2:
                 editor.insert_string()
+            # case 3:
+            #     editor.delete_row()
